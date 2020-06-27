@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/bkgd3.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -121,7 +121,7 @@ body {
 #content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     background: #222;
-    background:rgba(0,0,0,0.7);
+    background: rgba( 0, 0, 0, 0.9);
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -133,6 +133,7 @@ body {
     height: 300px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 40px #2846FF;
 }
 
 #content p span {
